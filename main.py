@@ -1,7 +1,6 @@
 from flask import Flask, request
 import telegram
 import os
-import imghdr
 
 TOKEN = os.getenv("BOT_TOKEN")
 bot = telegram.Bot(token=TOKEN)
